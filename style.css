@@ -19,17 +19,7 @@ body {
   background-position: 50% 100%;
   height: 1024px;
 }
-/* @media (min-width: 1301px) {
-  .title {
-    background-position: center;
-    background-color: #000915;
-  }
-}
-@media (max-width: 1300px) {
-  .title {
-    background-size: cover;
-  }
-} */
+
 .title__header {
   max-width: 666px;
   color: rgb(255, 255, 255);
@@ -105,13 +95,14 @@ body {
   line-height: 32px;
   color: #ffffff;
 }
-.footer22__link {
+.footer__link {
   position: relative;
+  text-decoration: none;
 }
-.footer22__img {
+.footer__img {
   border-radius: 30px;
 }
-.footer22__name {
+.footer__name {
   font-family: Montserrat;
   font-size: 24px;
   font-weight: 400;
