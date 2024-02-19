@@ -80,52 +80,15 @@ body {
         padding-block: 128px;
     }
 
-    // option #1
-
     &__link {
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        width: 378px;
-        height: 300px;
-        display: flex;
-        justify-content: start;
-        align-items: end;
-        padding: 32px;
-        box-sizing: border-box;
-
-        &--left {
-            background: url(img/game-1.png);
-        }
-
-        &--center {
-            background: url(img/game-2.png);
-        }
-
-        &--right {
-            background: url(img/game-3.png);
-        }
-    }
-
-    &__name {
-        font-family: Montserrat;
-        font-size: 24px;
-        font-weight: 400;
-        line-height: 32px;
-        color: #ffffff;
-    }
-
-    // option #2
-
-    &22__link {
         position: relative;
     }
 
-    &22__img {
+    &__img {
         border-radius: 30px;
     }
 
-    &22__name {
+    &__name {
         font-family: Montserrat;
         font-size: 24px;
         font-weight: 400;
